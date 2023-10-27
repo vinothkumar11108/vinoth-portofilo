@@ -1,0 +1,288 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+nav ul{
+    text-align: center;
+    position: relative;
+    width: 700px;
+    
+}
+
+nav{
+    position: relative;
+    top: 25px;
+    height: 40px;
+    padding: 20px;
+}
+nav ul li {
+    display: inline;
+    margin: 14px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+ 
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li :hover{
+    text-decoration:line-through;
+}
+
+nav button{
+    float:right;
+    position: relative;
+    right: 250px;
+    bottom: 50px;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    background-color: aqua;
+    border: none;
+    border-radius: 2px;
+
+}
+nav button:hover{
+    box-shadow: 2px 2px 100px white;
+    transition-duration: 1s;
+}
+nav img{
+height: 50px;
+width: 50px;
+position: absolute;
+border-radius: 50%;
+background-color: white;
+bottom: 23px;
+left: 100px;
+
+}
+
+
+.wrapper{
+    position: relative;
+    left: 70px;
+    top: 100px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+.wrapper .content{
+    text-align: center;
+overflow: hidden;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    width: 600px;
+    height: 313px;
+
+  
+
+}
+
+.wrapper .image{
+    position: relative;
+    right: 10px;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+   
+    
+}
+
+
+.wrapper .image:hover{
+    box-shadow: 2px 2px 100px rgb(189, 23, 23);
+    transition-duration: 1s;
+}
+
+
+.content h1,form{
+    margin:30px;
+}
+
+.wrapper button{
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 2px;
+    text-transform: uppercase;
+
+
+
+}
+
+.wrapper button:hover{
+  box-shadow: 2px 2px 100px rgb(25, 186, 207);
+  transition-duration: 1s;
+  transition-delay: 0.5s;
+}
+.content span{
+    color: aqua;
+}
+
+#name{
+    font-size: 26px;
+}
+
+#name:hover{
+    font-size: 40px;
+    text-shadow: 2px 2px 100px rgb(25, 186, 207);;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+}
+
+
+.content p{
+    
+    position: relative;
+    top: 20px;
+    left: 150px;
+    font-size: 20px;
+    color: aqua;
+    
+}
+
+#first{
+    color: white;
+}
+
+
+.scrol{
+    
+    height: 313px;
+    width: 600px;
+
+}
+
+
+
+#para1{
+    position: relative!important;
+    
+}
+
+
+#about h5{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.webdesign{
+    box-sizing: border-box;
+    position: relative;
+    
+    padding: 10px;
+    height: 45%;
+    width: 50%;
+}
+.digitalm{
+    box-sizing: border-box;
+    padding: 10px;
+    height: 45%;
+    width: 50%;
+    
+}
+.uiux{
+    box-sizing: border-box;
+    padding: 10px;
+    height: 90%;
+    width: 49%;
+    
+    position: relative;
+    bottom: 282px;
+    left: 302px;
+    
+
+}
+
+#services h5{
+    margin-top: 10px;
+    color: white;
+}
+#services h3{
+    color: aqua;
+}
+#para4{
+    width: 160px;
+    position: relative;
+    left: 60px;
+    top: 30px;
+}
+
+#jkefp{
+    margin: 0px;
+    color: rgb(10, 239, 255);
+}
+
+.resume{
+    overflow-y: scroll;
+}
+
+.resume h3{
+    margin: 10px;
+    color: aqua;
+    text-align: left;
+    position: relative;
+    left: 30px;
+    width: 200px;
+}
+
+.resume h5{
+    margin: 10px;
+    font-size: 20px;
+    position: relative;
+    right: 25px;
+    bottom: 32px;
+}
+
+.resume  ul li {
+    position: relative;
+    bottom: 30px;
+    right: 30px;
+}
+
+.line{
+    background-color: aqua;
+    height: 200px;
+    width: 5px;
+    position: absolute;
+}
+
+#lineone{
+    height: 5px;
+    width: 315px;
+}
+
+#linetwo{
+    height: 120px;
+    position: absolute;
+}
+
+#linethree{
+    height: 250px;
+}
+
+#line4{
+    height: 320px;
+}
+
+#aboutme{
+    color: aqua;
+}
